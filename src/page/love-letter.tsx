@@ -79,10 +79,44 @@ export default function LoveLetter() {
       {showPictures && (
         <>
           <div className="pictures">
-            <img src="https://placekitten.com/200/200" alt="Memory 1" />
-            <img src="https://placebear.com/200/200" alt="Memory 2" />
-            <img src="https://picsum.photos/200/200" alt="Memory 3" />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine5.jpg`}
+              alt="Memory 1"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine2.jpg`}
+              alt="Memory 2"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine3.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine4.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine1.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine6.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine7.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine8.jpg`}
+              alt="Memory 3"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}assets/saultine9.jpg`}
+              alt="Memory 3"
+            />
           </div>
+
           <button onClick={() => setShowPictures(false)}>
             Close Pictures ❌
           </button>

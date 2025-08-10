@@ -1,4 +1,4 @@
-import LoveLetter from "./assets/page/love-letter";
+import LoveLetter from "./page/love-letter";
 import "./App.css";
 
 function App() {
